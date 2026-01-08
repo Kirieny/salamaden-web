@@ -22,7 +22,7 @@ body {
     color: white;
     padding: 1rem 0;
     position: fixed;
-    height: auto;
+    height: 50px;
     width: 100%;
     top: 0;
     z-index: 1000;
@@ -518,6 +518,7 @@ section {
 
 
 }
+
 
 
 
