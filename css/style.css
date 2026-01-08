@@ -38,7 +38,7 @@ body {
     color: #ffd700;
     text-align: left;
     margin-left: 0px;
-    margin-right: 200px;
+    margin-right: 350px;
 }
 .nav-menu {
     display: flex;
@@ -517,5 +517,6 @@ section {
 
 
 }
+
 
 
