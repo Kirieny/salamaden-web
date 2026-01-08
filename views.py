@@ -4,7 +4,7 @@ from django.shortcuts import render
 
 def main (request):
     context = {}
-    return render(request,'salama/main.html', context)
+    return render(request,'salama/index.html', context)
 
 def header (request):
     context = {}
@@ -12,4 +12,5 @@ def header (request):
 
 def project (request):
     context = {}
+
     return render(request,'salama/project.html', context)
