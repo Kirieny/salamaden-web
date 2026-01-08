@@ -20,7 +20,8 @@ body {
 .navbar {
     background: green;
     color: white;
-    padding: -1rem 0;
+    padding: 1rem 0;
+    margin-top: -1rem;
     position: fixed;
     height: 60px;
     width: 100%;
@@ -39,11 +40,13 @@ body {
     color: #ffd700;
     text-align: left;
     margin-left: 0px;
+    margin-top: -1rem;
     margin-right: 370px;
 }
 .nav-menu {
     display: flex;
     list-style: none;
+    margin-top: -1rem;
     gap: 2rem;
 }
 
@@ -82,6 +85,7 @@ body {
     height: auto;
     margin-right: 5px;
     margin-left: 5px;
+    margin-top: -1rem;
 }
 
 #sm-icon {
@@ -518,6 +522,7 @@ section {
 
 
 }
+
 
 
 
