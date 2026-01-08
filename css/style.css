@@ -21,7 +21,7 @@ body {
     background: green;
     color: white;
     padding: 1rem 0;
-    margin-top: 1rem;
+    margin-top: 5px;
     position: fixed;
     height: 60px;
     width: 100%;
@@ -40,13 +40,13 @@ body {
     color: #ffd700;
     text-align: left;
     margin-left: 0px;
-    margin-top: 1rem;
+    margin-top: 5px;
     margin-right: 370px;
 }
 .nav-menu {
     display: flex;
     list-style: none;
-    margin-top: 1rem;
+    margin-top: 5px;
     gap: 2rem;
 }
 
@@ -522,6 +522,7 @@ section {
 
 
 }
+
 
 
 
