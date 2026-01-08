@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salama Den - Electrical & Renewable Energy Solutions</title>
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% 'css/style.css' %}">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 <nav class="navbar">
     <div class="container">
-        <img id="logo-icon" src="{% static 'images/logo.png' %}" alt="Logo">
+        <img id="logo-icon" src="{% 'images/logo.png' %}" alt="Logo">
 
             <div class="nav-brand">
                 <h2>Salama Den</h2>
@@ -51,7 +50,7 @@ time. </p>
                 <div class="service-card">
                     <div class="service-icon"></div>
                     <h3>Electrical Solutions</h3>
-                    <img src="{% static 'images/electrical.jpg' %}">
+                    <img src="{% 'images/electrical.jpg' %}">
                     <ul>
                         <li>Electrical consultancy</li>
                         <li>Electrical Design & Modeling </li>
@@ -62,7 +61,7 @@ time. </p>
                 <div class="service-card">
                     <div class="service-icon"></div>
                     <h3>Solar & Renewable Energy</h3>
-                    <img src="{% static 'images/solar.jpg' %}">
+                    <img src="{% 'images/solar.jpg' %}">
                     <ul>
                         <li>Small & medium scale solar</li>
                         <li>Mega solar projects</li>
@@ -75,7 +74,7 @@ time. </p>
                 <div class="service-card">
                     <div class="service-icon"></div>
                     <h3>Surveillance & Security</h3>
-                    <img src="{% static 'images/surveillance.jpg' %}">
+                    <img src="{% 'images/surveillance.jpg' %}">
                     <ul>
                         <li>CCTV systems</li>
                         <li>Electric fencing</li>
@@ -92,21 +91,21 @@ time. </p>
             <p class="section-subtitle">Professional Solar Panel Installations</p>
             <div class="projects-grid">
                 <div class="project-card">
-                    <img src="{% static 'images/image1.jpg' %}" alt="Solar Panel Installation Team">
+                    <img src="{% 'images/image1.jpg' %}" alt="Solar Panel Installation Team">
                     <div class="project-info">
                         <h3>Residential Solar Installation</h3>
                         <p>Professional team installing high-efficiency solar panels</p>
                     </div>
                 </div>
                 <div class="project-card">
-                    <img src=" {% static 'images/image3.jpg' %}" alt="Solar Panels on Roof">
+                    <img src=" {% 'images/image3.jpg' %}" alt="Solar Panels on Roof">
                     <div class="project-info">
                         <h3>Complete Solar Array</h3>
                         <p>Full rooftop solar panel system installation</p>
                     </div>
                 </div>
                 <div class="project-card">
-                    <img src="{% static 'images/image2.jpg' %}" alt="Solar Installation in Progress">
+                    <img src="{% 'images/image2.jpg' %}" alt="Solar Installation in Progress">
                     <div class="project-info">
                         <h3>Expert Installation</h3>
                         <p>Quality installation by certified technicians</p>
@@ -174,10 +173,10 @@ time. </p>
 
                     <div class="contact-info">
                         <div class="contact-card">
-                            <img id="sm-icon" src="{% static 'images/FB icon.png' %}">
-                            <img id="ig-icon" src="{% static 'images/IG-icon.png' %}">
-                            <img id="tiktok-icon" src="{% static 'images/tiktok-icon.png' %}">
-                            <img id="youtube-icon" src="{% static 'images/YouTube_icon.png' %}">
+                            <img id="sm-icon" src="{% 'images/FB icon.png' %}">
+                            <img id="ig-icon" src="{% 'images/IG-icon.png' %}">
+                            <img id="tiktok-icon" src="{% 'images/tiktok-icon.png' %}">
+                            <img id="youtube-icon" src="{% 'images/YouTube_icon.png' %}">
                         </div>
 
 
@@ -204,8 +203,9 @@ time. </p>
             <p>&copy; 2026 Salamaden. All rights reserved.</p>
         </div>
     </footer>
-    <script src="{% static 'js/script.js' %}"></script>
+    <script src="{% 'js/script.js' %}"></script>
     </div>
 </body>
 </html>
+
 
