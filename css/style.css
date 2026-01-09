@@ -88,6 +88,11 @@ body {
     margin-top: -1rem;
 }
 
+.favicon {
+    width: 20px;
+    height: 20px;
+}
+
 #sm-icon {
     width: 40px;        /* Resize logo */
     height: auto;
@@ -522,6 +527,7 @@ section {
 
 
 }
+
 
 
 
