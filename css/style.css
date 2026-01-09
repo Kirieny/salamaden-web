@@ -100,12 +100,6 @@ body {
     margin-left: 5px;
 }
 
-#whatsapp-icon {
-    width: 80px;        /* Resize logo */
-    height: auto;
-    margin-right: 50px;
-    margin-left: 50px;
-
 #ig-icon {
     width: 70px;        /* Resize logo */
     height: auto;
@@ -536,6 +530,7 @@ section {
 
 
 }
+
 
 
 
