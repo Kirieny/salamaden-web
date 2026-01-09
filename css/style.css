@@ -40,13 +40,13 @@ body {
     color: #ffd700;
     text-align: left;
     margin-left: 0px;
-    margin-top: 5px;
+    margin-bottom: 1rem;
     margin-right: 370px;
 }
 .nav-menu {
     display: flex;
     list-style: none;
-    margin-top: 5px;
+    margin-bottom: 1rem;
     gap: 2rem;
 }
 
@@ -85,7 +85,7 @@ body {
     height: auto;
     margin-right: 5px;
     margin-left: 5px;
-    margin-top: 5px;
+    margin-bottom: 1rem;
 }
 
 #sm-icon {
@@ -522,6 +522,7 @@ section {
 
 
 }
+
 
 
 
